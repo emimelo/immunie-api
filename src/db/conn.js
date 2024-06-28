@@ -1,10 +1,16 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 async function main() {
     try{
         mongoose.set('strictQuery', true);
 
-        await mongoose.connect('mongodb+srv://emillymelo3:JvW6TnzKnO0VWbNr@immunie-api.jnfwdbo.mongodb.net/?retryWrites=true&w=majority&appName=immunie-api');
+        await mongoose.connect(process.env.MONGODB_CONNECT_URL, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            connectTimeoutMS: 10000,
+            socketTimeoutMS: 45000,
+        });
 
         console.log('MongoDB connected');
     }

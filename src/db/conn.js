@@ -4,7 +4,7 @@ async function main() {
     try{
         mongoose.set('strictQuery', true);
 
-        await mongoose.connect('mongodb+srv://emillymelo3:2jnejXJ1K6otfFqa@immunie-api.jnfwdbo.mongodb.net/?retryWrites=true&w=majority&appName=immunie-apiclear');
+        await mongoose.connect('mongodb+srv://emillymelo3:JvW6TnzKnO0VWbNr@immunie-api.jnfwdbo.mongodb.net/?retryWrites=true&w=majority&appName=immunie-api');
 
         console.log('MongoDB connected');
     }

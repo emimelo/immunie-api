@@ -15,6 +15,8 @@ O url base da API é https://immunie-api.vercel.app/
   - [GET - /api/user/:id](#13-apenas-um-usuário)
   - [PATCH - /api/user/:id](#14-update-de-usuário)
   - [DELETE - /api/user/:id](#15-delete-user)
+ 
+## 1. **User**
 
 ### 1.1. **Criação de Usuário**
 
@@ -30,7 +32,6 @@ Esse endpoint tem como propósito o criação de um novo usuário, sendo necess�
   "image_url": "emilly.jpg"
 }
 ```
-
 Caso dê tudo certo, a resposta será assim:
 
 `POST /api/user - FORMATO DA RESPOSTA - STATUS 201`
@@ -50,8 +51,6 @@ Caso dê tudo certo, a resposta será assim:
 	"message": "User created"
 }
 ```
-## 1. **Users**
-
 ### 1.2. **Listar todos os usuários**
 
 `GET /api/user - FORMATO DE REQUISIÇÃO`

@@ -13,7 +13,7 @@ O url base da API é https://immunie-api.vercel.app/
   - [POST - /api/user](#11-criação-de-usuário)
   - [GET - /api/user](#12-listar-todos-os-usuários)
   - [GET - /api/user/:id](#13-apenas-um-usuário)
-  - [PATCH - /api/user/:id](#14-update-de-usuário)
+  - [PUT - /api/user/:id](#14-update-de-usuário)
   - [DELETE - /api/user/:id](#15-delete-user)
  
 ## 1. **User**

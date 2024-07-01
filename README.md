@@ -20,14 +20,14 @@ O url base da API é https://immunie-api.vercel.app/
 
 ### 1.1. **Criação de Usuário**
 
-Esse endpoint tem como propósito o criação de um novo usuário, sendo necessário tais campos: name, lastName, email, image_url.
+Esse endpoint tem como propósito o criação de um novo usuário, sendo necessário tais campos: name, last_name, email, image_url.
 
 `POST /api/user - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
   "name": "Emilly",
-  "lastName": "Melo",
+  "last_name": "Melo",
   "email": "emilly@mail.com",
   "image_url": "emilly.jpg"
 }
@@ -40,7 +40,7 @@ Caso dê tudo certo, a resposta será assim:
 {
 	"response": {
 		"name": "Emilly",
-		"lastName": "Melo",
+		"last_name": "Melo",
 		"email": "emilly@mail.com",
 		"image_url": "emilly.jpg",
 		"_id": "667edeaab8044423f990fa27",
@@ -66,7 +66,7 @@ Vazio
 	{
 		"_id": "667e58dd1f1a58ece94cdc23",
 		"name": "Lucas",
-		"lastName": "Barreto",
+		"last_name": "Barreto",
 		"email": "lucas@mail.com",
 		"image_url": "lucas.jpg",
 		"createdAt": "2024-06-28T06:31:57.111Z",
@@ -76,7 +76,7 @@ Vazio
 	{
 		"_id": "667edeaab8044423f990fa27",
 		"name": "Emilly",
-		"lastName": "Melo",
+		"last_name": "Melo",
 		"email": "emilly@mail.com",
 		"image_url": "emilly.jpg",
 		"createdAt": "2024-06-28T06:51:24.206Z",
@@ -99,7 +99,7 @@ Vazio
 {
     "_id": "667edeaab8044423f990fa27",
 		"name": "Emilly",
-		"lastName": "Melo",
+		"last_name": "Melo",
 		"email": "emilly@mail.com",
 		"image_url": "emilly.jpg",
 		"createdAt": "2024-06-28T06:51:24.206Z",
@@ -123,7 +123,7 @@ Vazio
 {
 	"_id": "667edeaab8044423f990fa27",
 	"name": "Emilly",
-	"lastName": "Melo",
+	"last_name": "Melo",
 	"email": "fulanod@gmail.com",
 	"image_url": "emillynewimage.jpg",
 	"createdAt": "2024-06-28T14:17:13.094Z",
@@ -144,7 +144,7 @@ Vazio
 {
 	"_id": "667edeaab8044423f990fa83",
 	"name": "Emilly2",
-	"lastName": "Melo",
+	"last_name": "Melo",
 	"email": "emilly2@gmail.com",
 	"image_url": "emilly2.jpg",
 	"createdAt": "2024-06-28T16:02:50.829Z",

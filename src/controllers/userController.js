@@ -5,7 +5,7 @@ const userController = {
         try{
             const user = {
                 name: req.body.name,
-                lastName: req.body.lastName,
+                last_name: req.body.last_name,
                 email: req.body.email,
                 image_url: req.body.image_url
             };

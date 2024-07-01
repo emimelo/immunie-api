@@ -3,13 +3,13 @@ API de uma aplicação com objetivo de permitir que um usuário crie uma carteir
 
 ## **Endpoints**
 
-A API tem um total de 4 endpoints, sendo em volta principalmente do usuário - possibilitando criar seu perfil, atualizar: nome, sobrenome, email e perfil de usuário.
+A API tem um total de 4 endpoints, sendo em volta principalmente do usuário - possibilitando criar usuário, atualizar: nome, sobrenome, email e imagem de perfil do usuário, listar usuário e deletar.
 
 O url base da API é https://immunie-api.vercel.app/
 
 ## Índice:
 
-- [Users](#1-users)
+- [User](#1-user)
   - [POST - /api/user](#11-criação-de-usuário)
   - [GET - /api/user](#12-listar-todos-os-usuários)
   - [GET - /api/user/:id](#13-apenas-um-usuário)
